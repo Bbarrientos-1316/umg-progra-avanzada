@@ -11,6 +11,7 @@ public class Vehiculo {
     private String color;
     private String desperfecto;
     
+        
     Vehiculo(String marca, String linea, int modelo, String color, 
             String desperfecto) {
         this.marca = marca;
@@ -61,11 +62,12 @@ public class Vehiculo {
     }
     
     public void imprimirDatos() {
-        System.out.println(this.marca);
-        System.out.println(this.linea);
-        System.out.println(this.modelo);
-        System.out.println(this.color);
-        System.out.println(this.desperfecto);
+        System.out.print("Marca: " + this.marca + ", ");
+        System.out.print("Linea: " + this.linea + ", ");
+        System.out.print("Modelo: " + this.modelo + ", ");
+        System.out.println("Color: " + this.color);
+        System.out.println("Desperfecto: " + this.desperfecto);
+        
     }
     
 }
