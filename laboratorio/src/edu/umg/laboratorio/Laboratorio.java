@@ -1,9 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 package edu.umg.laboratorio;
 
 /**
@@ -26,6 +20,22 @@ public class Laboratorio {
         System.out.println("Disponible: " + miMonedero.mostrarDisponible());
         
         miMonedero.retirar(500);
+        
+        //probando clases Taller y Vehiculo
+        Taller miTaller = new Taller(5);
+        
+        miTaller.agregar(new Vehiculo("HYUNDAI","ACCENT", 2014, "GRIS", 
+                "Choque frontal"));
+        miTaller.agregar(new Vehiculo("TOYOTA","YARIS", 2007, "PLATEADO", 
+                "Servicio Completo"));
+        miTaller.agregar(new Vehiculo("TOYOTA","COROLLA", 2001, "ROJO", 
+                "Servicio de frenos"));
+        miTaller.agregar(new Vehiculo("MAZDA","3", 2008, "AZUL", 
+                "Cambio de aceite"));
+        miTaller.agregar(new Vehiculo("SUZUKI","SAMURAI", 2005, "CELESTE", 
+                "Cambio de radiador"));
+        miTaller.mostrar();
+        
     }
     
 }
