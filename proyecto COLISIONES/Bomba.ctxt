@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment0.text=\r\n\ \ \ \ Definiedo\ acciones\ que\ realiza\ la\ Bomba\r\n
+comment1.params=
+comment1.target=void\ moveAround()
+comment1.text=\r\n\ Valores\ otorgados\ a\ la\ Bomba\r\n
+comment2.params=
+comment2.target=void\ eat()
+comment2.text=\r\n\ \ \r\n
+numComments=3
