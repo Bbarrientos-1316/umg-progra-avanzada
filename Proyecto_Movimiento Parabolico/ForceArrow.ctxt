@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ForceArrow()
+comment1.params=difX\ difY
+comment1.target=ForceArrow(int,\ int)
+comment2.params=difX\ difY
+comment2.target=void\ setImage(int,\ int)
+numComments=3
